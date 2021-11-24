@@ -87,7 +87,7 @@ a {
 /*Start Header Section*/
 .header {
     position: relative;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .header .container {
@@ -245,7 +245,7 @@ a {
 }
 
 .about .container > h2 {
-    font-size: 3.2rem;
+    font-size: 5rem;
     position: relative;
 }
 
