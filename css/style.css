@@ -144,7 +144,8 @@ a {
 .landing {
     background-color: var(--darkViolet);
     position: relative;
-    padding: 50px 0;
+    padding: 5px 0;
+    padding-bottom: 48px;
     margin-bottom: 153px;
 }
 
@@ -180,14 +181,14 @@ a {
 }
 
 .landing .container .info {
-    padding: 150px 0 80px 0;
+    padding: 163px 0 80px 0;
     color: var(--veryLightGray);
     z-index: 1;
 }
 
 .landing .container .info h1 {
-    font-size: 4rem;
-    letter-spacing: 1px;
+    font-size: 4.1rem;
+    letter-spacing: 1.6px;
     max-width: 480px;
     line-height: 1;
     color: var(--veryLightGray);
@@ -200,13 +201,15 @@ a {
     background-color: var(--veryLightGray);
     height: 2px;
     width: 150px;
-    top: -50px;
-    left: 0;
+    top: -63px;
+    left: -2px;
 }
 
 .landing .container .info p {
     max-width: 535px;
-    margin: 30px 0;
+    margin-bottom: 31px;
+    margin-left: -2px;
+    margin-top: 25px
 }
 
 .landing .container .info a {
@@ -214,9 +217,10 @@ a {
     text-transform: uppercase;
     letter-spacing: 1px;
     border: 1px solid var(--veryLightGray);
-    padding: 10px 20px;
-    max-width: 150px;
-    font-weight: 700;
+    padding: 6px 20px;
+    margin-left: -2px;
+    min-height: 38px;
+    max-width: 144px;
 }
 
 .landing .container .info a:hover {
@@ -232,6 +236,7 @@ a {
 
 .landing .container .pic img {
     max-width: 100%;
+    margin-left: -57px;
 }
 
 .landing .container .pic .mobile {
@@ -242,7 +247,7 @@ a {
 
 /*Start Section About*/
 .about {
-    padding: 150px 0;
+    padding: 213px 0;
 }
 
 .about .container > h2 {
@@ -448,6 +453,9 @@ a {
         background-position: 145% 100%;
         width: 100%;
         height: 100%;
+    }
+    .landing .container .pic img {
+        margin-left: 0;
     }
 }
 
